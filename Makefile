@@ -8,6 +8,9 @@ test-stack:
 test-queue:
 	./vendor/bin/phpunit test/ADT/QueueTest.php
 
+test-bowling:
+	./vendor/bin/phpunit test/Bowling/GameTest.php
+
 test-int:
 	./vendor/bin/phpunit test/Mutation/MyIntTest.php
 

@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Bowlingt Game Unit Tests" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+    <TestRunner class="Braddle\Bowling\GameTest" file="$PROJECT_DIR$/test/Bowling/GameTest.php" scope="Class" />
+    <method v="2" />
+  </configuration>
+</component>
