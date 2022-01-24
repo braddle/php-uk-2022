@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Stack Unit Tests" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+    <TestRunner class="Braddle\ADT\StackTest" file="$PROJECT_DIR$/test/ADT/StackTest.php" scope="Class" />
+    <method v="2" />
+  </configuration>
+</component>

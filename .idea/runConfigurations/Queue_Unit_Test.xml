@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Queue Unit Test" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+    <TestRunner class="Braddle\ADT\QueueTest" file="$PROJECT_DIR$/test/ADT/QueueTest.php" scope="Class" />
+    <method v="2" />
+  </configuration>
+</component>
