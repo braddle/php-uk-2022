@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Integer Unit Tests" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+    <TestRunner class="Braddle\Mutation\MyIntTest" file="$PROJECT_DIR$/test/Mutation/MyIntTest.php" scope="Class" />
+    <method v="2" />
+  </configuration>
+</component>
