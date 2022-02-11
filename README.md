@@ -35,7 +35,29 @@ However no more than three balls can be rolled in tenth frame.
 
 This [Bowling Game Calculator](https://www.bowlinggenius.com/) may be useful to experiment with how the scoring works
 
-## Lab 3: ??
+## Lab 3: Event Card Sender (Test Double)
+
+During this Lab session I want you to implement the [CardManager](src/Celebration/CardManager.php) function
+sendCelebration(Person $person). When the function when fully implemented it should:
+  - take a [Person](src/Celebration/Person.php) object.
+  - Use the person object to retrieve an [Event](src/Celebration/Event.php) from the [EventRetriever](src/Celebration/EventRetriever.php)
+  - Using details from the [Person](src/Celebration/Person.php) send a card using the [Sender](src/Celebration/Sender.php)
+  - the template that is used should be decided on by decided using event
+    - Type: Birthday
+      - Years: 1 - TEMPLATE_BABY
+      - Years: 2 to 4: TEMPLATE_TODDLER
+      - Years: 5 to 12: TEMPLATE_CHILD
+      - Years: 13 to 17: TEMPLATE_TEENAGER
+      - Years: 18+: TEMPLATE_ADULT
+    - Type Anniversary
+      - Years: 1 - TEMPLATE_PAPER
+      - Years: 25 - TEMPLATE_SILVER
+      - Years: 40 TEMPLATE_RUBY
+      - Years: 50 - TEMPLATE_GOLD
+      - Years: 60 - TEMPLATE_DIAMOND
+      - Years: Any Other - TEMPLATE_ANNIVERSARY
+    - If the [EventRetriever](src/Celebration/EventRetriever.php) throws a [NoEventFoundException](src/Celebration/NoEventFoundException.php) then nothing should be sent
+
 
 # Workshop 2: Mutation Testing 
 Together we will explore how Mutation Testing can give us confidence in our tests covering all eventualities of our code
