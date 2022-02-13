@@ -9,6 +9,8 @@ Together we will implement a [Stack](src/ADT/Stack.php) (Last In, Last Out) to t
 Individually or in pairs implement a [Queue](src/ADT/Queue.php) (First In, First Out) to the 
 [Collection Interface](src/ADT/Collection.php)
 
+[Video](https://youtu.be/04FzlrMKPTM)
+
 ## Lab 2: Bowling Game Score Calculator
 Individually or in pairs implement a score function in the [Bowling Game Class](src/Bowling/Game.php). The function 
 `score()` will take a string representation of a single game of Bowling
@@ -35,6 +37,8 @@ However no more than three balls can be rolled in tenth frame.
 
 This [Bowling Game Calculator](https://www.bowlinggenius.com/) may be useful to experiment with how the scoring works
 
+[Video](https://youtu.be/5FKL4Gyj-Y0)
+
 ## Lab 3: Event Card Sender (Test Double)
 
 During this Lab session I want you to implement the [CardManager](src/Celebration/CardManager.php) function
@@ -59,5 +63,13 @@ sendCelebration(Person $person). When the function when fully implemented it sho
     - If the [EventRetriever](src/Celebration/EventRetriever.php) throws a [NoEventFoundException](src/Celebration/NoEventFoundException.php) then nothing should be sent
 
 
+  - [Stubs Video](https://youtu.be/F9TlJOevrfw)
+  - [Spies Video](https://youtu.be/byszcqvIG3U)
+  - [Mocks Video](https://youtu.be/KaUdUTtyDSc)
+  - [Fakes Video](https://youtu.be/aIMLaKtT828)
+  - [Isolating Unit Tests](https://youtu.be/H5XbK91ncx0)
+
 # Workshop 2: Mutation Testing 
 Together we will explore how Mutation Testing can give us confidence in our tests covering all eventualities of our code
+
+[video](https://youtu.be/NGreTag7rV8)
