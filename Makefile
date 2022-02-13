@@ -14,5 +14,8 @@ test-bowling:
 test-int:
 	./vendor/bin/phpunit test/Mutation/MyIntTest.php
 
+test-celebration:
+	./vendor/bin/phpunit test/Celebration/CardManagerTest.php
+
 mutate:
 	XDEBUG_MODE=coverage ./vendor/bin/infection

@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Celebration Unit Test" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+    <TestRunner class="Braddle\Celebration\CardManagerTest" file="$PROJECT_DIR$/test/Celebration/CardManagerTest.php" scope="Class" />
+    <method v="2" />
+  </configuration>
+</component>

@@ -1,5 +1,4 @@
 <?php
-
 namespace Braddle\Celebration;
 
 use PHPUnit\Framework\TestCase;
