@@ -42,7 +42,7 @@ This [Bowling Game Calculator](https://www.bowlinggenius.com/) may be useful to 
 ## Lab 3: Event Card Sender (Test Double)
 
 During this Lab session I want you to implement the [CardManager](src/Celebration/CardManager.php) function
-sendCelebration(Person $person). When the function when fully implemented it should:
+sendCelebration(Person $person). When the function is fully implemented it should:
   - take a [Person](src/Celebration/Person.php) object.
   - Use the person object to retrieve an [Event](src/Celebration/Event.php) from the [EventRetriever](src/Celebration/EventRetriever.php)
   - Using details from the [Person](src/Celebration/Person.php) send a card using the [Sender](src/Celebration/Sender.php)
