@@ -61,6 +61,10 @@ sendCelebration(Person $person). When the function is fully implemented it shoul
       - Years: 60 - TEMPLATE_DIAMOND
       - Years: Any Other - TEMPLATE_ANNIVERSARY
     - If the [EventRetriever](src/Celebration/EventRetriever.php) throws a [NoEventFoundException](src/Celebration/NoEventFoundException.php) then nothing should be sent
+    
+
+  - [Mocks Documentation](http://docs.mockery.io/en/latest/reference/creating_test_doubles.html)
+  - [Spies Documentation](http://docs.mockery.io/en/latest/reference/spies.html)
 
 
   - [Stubs Video](https://youtu.be/F9TlJOevrfw)
